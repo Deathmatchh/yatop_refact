@@ -3,7 +3,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Full Project Compilation
+name: Full Project Compilation2
 
 on:
   push:
