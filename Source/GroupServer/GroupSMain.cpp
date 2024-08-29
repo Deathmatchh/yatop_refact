@@ -152,7 +152,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	ConsoleUtils::printASCIIArt();
 	ConsoleUtils::ResetFontColor();
 
-	LicenseManager::verifyLicense();
+	//LicenseManager::verifyLicense();
 
 	try{
 		g_gpsvr	=new GroupServerApp(l_proc,l_comm);

@@ -32,7 +32,7 @@ int main(int argc, char* argv[])
 	ConsoleUtils::printASCIIArt();
 	ConsoleUtils::ResetFontColor();
 	SetWindowText(GetConsoleWindow(), "[Yatops] GateServer");
-  LicenseManager::verifyLicense();
+  //LicenseManager::verifyLicense();
   
 	GateServerApp app;
 	app.ServiceStart();

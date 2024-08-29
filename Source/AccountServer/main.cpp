@@ -299,7 +299,7 @@ int main(int argc, char* argv[])
   ConsoleUtils::printASCIIArt();
   ConsoleUtils::ResetFontColor();
 
-  LicenseManager::verifyLicense();
+  //LicenseManager::verifyLicense();
 
   g_hMainWnd = CreateMainDialog();
   signal(SIGINT, Ctrlc_Dispatch);

@@ -429,7 +429,7 @@ BOOL CGameApp::Init()
 	ConsoleUtils::SetFontColor(35);
 	ConsoleUtils::printASCIIArt();
 	ConsoleUtils::ResetFontColor();
-	LicenseManager::verifyLicense();
+	//LicenseManager::verifyLicense();
 	//LG("init", "开始初始化GameApp\n");
 	LG("init", "start initialization GameApp\n");
 
