@@ -7,7 +7,7 @@ name: Full Project Compilation
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
     paths-ignore:
       -- '**.md'  # Ignore markdown updates
 
